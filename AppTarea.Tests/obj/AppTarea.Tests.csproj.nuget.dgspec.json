@@ -1,0 +1,471 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Tests\\AppTarea.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Aplicacion\\AppTarea.Aplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Aplicacion\\AppTarea.Aplicacion.csproj",
+        "projectName": "AppTarea.Aplicacion",
+        "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Aplicacion\\AppTarea.Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Aplicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj": {
+                "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.APII\\AppTarea.Infraestructura.APII.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.APII\\AppTarea.Infraestructura.APII.csproj",
+        "projectName": "AppTarea.Infraestructura.APII",
+        "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.APII\\AppTarea.Infraestructura.APII.csproj",
+        "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.APII\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Aplicacion\\AppTarea.Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Aplicacion\\AppTarea.Aplicacion.csproj"
+              },
+              "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.DTO\\AppTarea.Infraestructura.DTO.csproj": {
+                "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.DTO\\AppTarea.Infraestructura.DTO.csproj"
+              },
+              "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Ingraestructura.Datos\\AppTarea.Infraestructura.Datos.csproj": {
+                "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Ingraestructura.Datos\\AppTarea.Infraestructura.Datos.csproj"
+              },
+              "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj": {
+                "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.DTO\\AppTarea.Infraestructura.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.DTO\\AppTarea.Infraestructura.DTO.csproj",
+        "projectName": "AppTarea.Infraestructura.DTO",
+        "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.DTO\\AppTarea.Infraestructura.DTO.csproj",
+        "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj": {
+                "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Ingraestructura.Datos\\AppTarea.Infraestructura.Datos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Ingraestructura.Datos\\AppTarea.Infraestructura.Datos.csproj",
+        "projectName": "AppTarea.Infraestructura.Datos",
+        "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Ingraestructura.Datos\\AppTarea.Infraestructura.Datos.csproj",
+        "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Ingraestructura.Datos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj": {
+                "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Tests\\AppTarea.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Tests\\AppTarea.Tests.csproj",
+        "projectName": "AppTarea.Tests",
+        "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Tests\\AppTarea.Tests.csproj",
+        "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Aplicacion\\AppTarea.Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Aplicacion\\AppTarea.Aplicacion.csproj"
+              },
+              "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.APII\\AppTarea.Infraestructura.APII.csproj": {
+                "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.APII\\AppTarea.Infraestructura.APII.csproj"
+              },
+              "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.DTO\\AppTarea.Infraestructura.DTO.csproj": {
+                "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea.Infraestructura.DTO\\AppTarea.Infraestructura.DTO.csproj"
+              },
+              "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj": {
+                "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj",
+        "projectName": "AppTarea.Dominio",
+        "projectPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\AppTarea.Dominio.csproj",
+        "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mauri\\Documents\\prueba quind\\AppTareaPrueba\\AppTarea\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
